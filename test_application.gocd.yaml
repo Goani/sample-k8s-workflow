@@ -33,6 +33,6 @@ pipelines:
             - exec:
                 arguments:
                 - -c
-                - docker run <registry_id>.dkr.ecr.<aws_region>.amazonaws.com/bulletin-board:$GO_DEPENDENCY_LABEL_UPSTREAM npm test
+                - docker run 314980697946.dkr.ecr.eu-central-1.amazonaws.com/bulletin-board:$GO_DEPENDENCY_LABEL_UPSTREAM npm test
                 command: /bin/bash
                 run_if: passed
